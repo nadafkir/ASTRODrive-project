@@ -8,10 +8,6 @@ import sys
 import subprocess
 import importlib
 from PIL import Image
-from cryptography.fernet import Fernet
-import tkinter as tk
-from tkinter import scrolledtext
-sys.getdefaultencoding()
 from colorama import Fore, Style, init
 import time
 import matplotlib.pyplot as plt
