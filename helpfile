@@ -1,0 +1,69 @@
+
+
+=== Aide de Commandes Astro ===
+HELP
+~~~~~~~~~~~GESTION DES UTILISATEURS:~~~~~~~~~~~~
+
+0. 'astrocreate-user'
+
+1. 'astrodelete-user' - Supprime un utilisateur.
+   Syntaxe: astrodelete-user [nom_utilisateur] [id_emploi]
+
+2. `astromodify-user-grp` - Modifie le groupe d'un utilisateur.
+   Syntaxe: astromodify-user-grp [nom_utilisateur] [id_emploi] [nouveau_groupe]
+
+3. `astromodify-user-passwd` - Modifie le mot de passe d'un utilisateur.
+   Syntaxe: astromodify-user-passwd [nom_utilisateur] [id_emploi]
+
+4. `astrotouch` - Crée un nouveau fichier vide.
+   Syntaxe: astrotouch [chemin_repertoire_destinataire] [nom_fichier]
+
+5. `astromkdir` - Crée un nouveau répertoire.
+   Syntaxe: astromkdir [nom_répertoire_destinataire] [nom_repertoire]
+
+6. `astrodelete` - Supprime un fichier ou un répertoire.
+   Syntaxe: astrodelete [-dir / -f] [nom_fichier_ou_répertoire]
+
+7. `astrowrite` - Écrit dans un fichier existant ou crée un nouveau fichier.
+   Syntaxe: astrowrite [+w / +a] [nom_fichier] 
+
+8. `astroread` - Lit le contenu d'un fichier.
+   Syntaxe: astroread - [nom_fichier]
+
+   
+10.astrocopy-paste[chemin_fichier_destinateur] [chemin_fichier_destinataire] : copier
+    le contenu de fichier destinateur et le coller dans le fichier destinataire
+
+~~~~~Les fonctions rapides /teleportation/ sans besoin de la saisie de path :
+
+11. `generate`, `build`, `compose` - Commandes de génération de quelque chose (à définir).
+   Syntaxe: generate | build | compose [nom_fichier dans la repertoire stars | planets | constellation ]
+
+12. explore - Affiche le contenu d'un répertoire.
+   Syntaxe: explore [chemin]
+
+13. `eclipse`, `erase`, `purge` - Commandes de suppression rapide (à définir).
+    Syntaxe: eclipse | erase | purge - [nom_fichier dans la repertoire stars | planets | constellation]
+
+14. 'scan', 'observe' , 'track' - commandes de lecture rapide
+      Syntaxe: observe | track | scan - [nom_fichier dans la repertoire stars| planets | constellation]
+      
+15. `exit` -  revient en arrière dans l'arborescence.
+---------------------------DATAANALYSE----------------------------------------------
+
+16. ' md ' afficher le meta model d' un rapartoire ou d un fichier
+
+17. 'kpi'  affichage d'une courbe de nombre des connexions validées à la distribution en fonction des jours (les 7jours avant aujourd'hui)
+------------------------------------------------------------------------------------
+
+=== Notes ===
+
+- Remplacez les parties entre crochets par les valeurs appropriées.
+- Certaines commandes peuvent avoir des options supplémentaires à spécifier.
+
+
+=== Avertissement ===
+
+Les commandes de (1. 2. 3. 9. 10. 11.) peuvent nécessiter des autorisations spécifiques (root & sroot). Assurez-vous d'avoir les droits nécessaires avant d'exécuter une commande. 
+
+
